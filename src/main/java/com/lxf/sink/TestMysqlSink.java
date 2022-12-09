@@ -31,7 +31,6 @@ public class TestMysqlSink extends RichSinkFunction<Access> {
         if(insertpsmt != null) insertpsmt.close();
         if(updatepsmt != null) updatepsmt.close();
         if(conn != null) conn.close();
-
     }
 
     @Override
